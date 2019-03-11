@@ -41,7 +41,8 @@ function checkConfiguration(el){
 		document.getElementById("slot2").classList.add("opaque");
 		document.getElementById("slot3").classList.add("opaque");
 		document.getElementById("slot4").classList.add("opaque");
-		document.getElementById("shit").src = "imuy/key.png";
+		document.getElementById("shit").classList.add("display");
+		document.getElementById("key").classList.remove("display");
 	} else {
 		
 	}
